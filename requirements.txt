@@ -1,0 +1,19 @@
+Flask       # Core Flask framework
+gunicorn  # WSGI HTTP Server for production
+Werkzeug    # WSGI utilities
+Jinja2      # Templating engine
+MarkupSafe  # Safely handles strings in templates
+itsdangerous # Flask session management
+click      # Command line utilities for Flask
+
+# Optional: If your Flask app requires handling of forms, database, etc.
+Flask-SQLAlchemy==3.0.4  # For working with databases
+Flask-Login      # For user session management
+Flask-Migrate     # For database migrations
+Flask-Cors       # For handling CORS
+
+
+pymongo==4.6.0           # MongoDB
+
+# You may need these for handling .env configurations
+python-dotenv==1.0.0
